@@ -1,0 +1,230 @@
+-debug
+-target:library
+-nowarn:0169
+-out:Temp/Assembly-CSharp.dll
+-r:"E:/Program Files/Unity 4.3/Editor/Data/Managed/UnityEngine.dll"
+-r:"Assets/Libraries/Daikon Forge/DataBinding/Plugins/dfScriptLite.dll"
+-r:"E:/Program Files/Unity 4.3/Editor/Data/Managed/UnityEditor.dll"
+-define:UNITY_WEBPLAYER
+-define:WEBPLUG
+-define:ENABLE_MICROPHONE
+-define:ENABLE_TEXTUREID_MAP
+-define:ENABLE_AUDIO_FMOD
+-define:ENABLE_MONO
+-define:ENABLE_SPRITES
+-define:ENABLE_TERRAIN
+-define:ENABLE_GENERICS
+-define:ENABLE_SUBSTANCE
+-define:INCLUDE_WP8SUPPORT
+-define:ENABLE_MOVIES
+-define:ENABLE_WWW
+-define:ENABLE_IMAGEEFFECTS
+-define:ENABLE_WEBCAM
+-define:INCLUDE_METROSUPPORT
+-define:RENDER_SOFTWARE_CURSOR
+-define:ENABLE_NETWORK
+-define:ENABLE_PHYSICS
+-define:ENABLE_CACHING
+-define:ENABLE_CLOTH
+-define:ENABLE_2D_PHYSICS
+-define:ENABLE_SHADOWS
+-define:ENABLE_AUDIO
+-define:ENABLE_NAVMESH_CARVING
+-define:ENABLE_DUCK_TYPING
+-define:ENABLE_SINGLE_INSTANCE_BUILD_SETTING
+-define:UNITY_4_3_2
+-define:UNITY_4_3
+-define:ENABLE_PROFILER
+-define:UNITY_EDITOR
+-define:UNITY_EDITOR_WIN
+"Assets/Libraries/Daikon Forge/DFGUI/Scripts/Controls/dfButton.cs"
+"Assets/Libraries/Daikon Forge/DFGUI/Scripts/Controls/dfCheckbox.cs"
+"Assets/Libraries/Daikon Forge/DFGUI/Scripts/Controls/dfControl.cs"
+"Assets/Libraries/Daikon Forge/DFGUI/Scripts/Controls/dfDragHandle.cs"
+"Assets/Libraries/Daikon Forge/DFGUI/Scripts/Controls/dfDropdown.cs"
+"Assets/Libraries/Daikon Forge/DFGUI/Scripts/Controls/dfInteractiveBase.cs"
+"Assets/Libraries/Daikon Forge/DFGUI/Scripts/Controls/dfLabel.cs"
+"Assets/Libraries/Daikon Forge/DFGUI/Scripts/Controls/dfListbox.cs"
+"Assets/Libraries/Daikon Forge/DFGUI/Scripts/Controls/dfPanel.cs"
+"Assets/Libraries/Daikon Forge/DFGUI/Scripts/Controls/dfPanelFlowLayout.cs"
+"Assets/Libraries/Daikon Forge/DFGUI/Scripts/Controls/dfProgressBar.cs"
+"Assets/Libraries/Daikon Forge/DFGUI/Scripts/Controls/dfRadialSprite.cs"
+"Assets/Libraries/Daikon Forge/DFGUI/Scripts/Controls/dfResizeHandle.cs"
+"Assets/Libraries/Daikon Forge/DFGUI/Scripts/Controls/dfScrollPanel.cs"
+"Assets/Libraries/Daikon Forge/DFGUI/Scripts/Controls/dfScrollbar.cs"
+"Assets/Libraries/Daikon Forge/DFGUI/Scripts/Controls/dfSlicedSprite.cs"
+"Assets/Libraries/Daikon Forge/DFGUI/Scripts/Controls/dfSlider.cs"
+"Assets/Libraries/Daikon Forge/DFGUI/Scripts/Controls/dfSprite.cs"
+"Assets/Libraries/Daikon Forge/DFGUI/Scripts/Controls/dfTabContainer.cs"
+"Assets/Libraries/Daikon Forge/DFGUI/Scripts/Controls/dfTabstrip.cs"
+"Assets/Libraries/Daikon Forge/DFGUI/Scripts/Controls/dfTextbox.cs"
+"Assets/Libraries/Daikon Forge/DFGUI/Scripts/Controls/dfTextureSprite.cs"
+"Assets/Libraries/Daikon Forge/DFGUI/Scripts/Controls/dfTiledSprite.cs"
+"Assets/Libraries/Daikon Forge/DFGUI/Scripts/Controls/dfWebSprite.cs"
+"Assets/Libraries/Daikon Forge/DFGUI/Scripts/Internal/IDFControlHost.cs"
+"Assets/Libraries/Daikon Forge/DFGUI/Scripts/Internal/IDFMultiRender.cs"
+"Assets/Libraries/Daikon Forge/DFGUI/Scripts/Internal/Input/Gestures/dfDoubleTapGesture.cs"
+"Assets/Libraries/Daikon Forge/DFGUI/Scripts/Internal/Input/Gestures/dfFlickGesture.cs"
+"Assets/Libraries/Daikon Forge/DFGUI/Scripts/Internal/Input/Gestures/dfGestureBase.cs"
+"Assets/Libraries/Daikon Forge/DFGUI/Scripts/Internal/Input/Gestures/dfGestureState.cs"
+"Assets/Libraries/Daikon Forge/DFGUI/Scripts/Internal/Input/Gestures/dfHoldGesture.cs"
+"Assets/Libraries/Daikon Forge/DFGUI/Scripts/Internal/Input/Gestures/dfPanGesture.cs"
+"Assets/Libraries/Daikon Forge/DFGUI/Scripts/Internal/Input/Gestures/dfResizeGesture.cs"
+"Assets/Libraries/Daikon Forge/DFGUI/Scripts/Internal/Input/Gestures/dfRotateGesture.cs"
+"Assets/Libraries/Daikon Forge/DFGUI/Scripts/Internal/Input/Gestures/dfTapGesture.cs"
+"Assets/Libraries/Daikon Forge/DFGUI/Scripts/Internal/Input/Touch Components/dfMouseTouchSourceComponent.cs"
+"Assets/Libraries/Daikon Forge/DFGUI/Scripts/Internal/Input/Touch Components/dfTouchInputSourceComponent.cs"
+"Assets/Libraries/Daikon Forge/DFGUI/Scripts/Internal/Input/Touch Components/dfWin7TouchSourceComponent.cs"
+"Assets/Libraries/Daikon Forge/DFGUI/Scripts/Internal/Input/Touch Components/dfWin8TouchSourceComponent.cs"
+"Assets/Libraries/Daikon Forge/DFGUI/Scripts/Internal/Input/Touch Sources/IDFTouchSource.cs"
+"Assets/Libraries/Daikon Forge/DFGUI/Scripts/Internal/Input/Touch Sources/dfMobileTouchInputSource.cs"
+"Assets/Libraries/Daikon Forge/DFGUI/Scripts/Internal/Input/Touch Sources/dfMouseTouchInputSource.cs"
+"Assets/Libraries/Daikon Forge/DFGUI/Scripts/Internal/Input/Touch Sources/dfWin7TouchInputSource.cs"
+"Assets/Libraries/Daikon Forge/DFGUI/Scripts/Internal/Input/Touch Sources/dfWin8TouchInputSource.cs"
+"Assets/Libraries/Daikon Forge/DFGUI/Scripts/Internal/Input/dfInputManager.cs"
+"Assets/Libraries/Daikon Forge/DFGUI/Scripts/Internal/Input/dfTouchInfo.cs"
+"Assets/Libraries/Daikon Forge/DFGUI/Scripts/Internal/Input/dfTouchTrackingInfo.cs"
+"Assets/Libraries/Daikon Forge/DFGUI/Scripts/Internal/MetroReflectionExtensions.cs"
+"Assets/Libraries/Daikon Forge/DFGUI/Scripts/Internal/dfAnimationClip.cs"
+"Assets/Libraries/Daikon Forge/DFGUI/Scripts/Internal/dfAtlas.cs"
+"Assets/Libraries/Daikon Forge/DFGUI/Scripts/Internal/dfAttributes.cs"
+"Assets/Libraries/Daikon Forge/DFGUI/Scripts/Internal/dfChecksumUtil.cs"
+"Assets/Libraries/Daikon Forge/DFGUI/Scripts/Internal/dfClippingUtil.cs"
+"Assets/Libraries/Daikon Forge/DFGUI/Scripts/Internal/dfDynamicFont.cs"
+"Assets/Libraries/Daikon Forge/DFGUI/Scripts/Internal/dfEnumerations.cs"
+"Assets/Libraries/Daikon Forge/DFGUI/Scripts/Internal/dfEvents.cs"
+"Assets/Libraries/Daikon Forge/DFGUI/Scripts/Internal/dfFont.cs"
+"Assets/Libraries/Daikon Forge/DFGUI/Scripts/Internal/dfFontBase.cs"
+"Assets/Libraries/Daikon Forge/DFGUI/Scripts/Internal/dfGUICamera.cs"
+"Assets/Libraries/Daikon Forge/DFGUI/Scripts/Internal/dfGUIManager.cs"
+"Assets/Libraries/Daikon Forge/DFGUI/Scripts/Internal/dfLanguageCodes.cs"
+"Assets/Libraries/Daikon Forge/DFGUI/Scripts/Internal/dfLanguageManager.cs"
+"Assets/Libraries/Daikon Forge/DFGUI/Scripts/Internal/dfList.cs"
+"Assets/Libraries/Daikon Forge/DFGUI/Scripts/Internal/dfMarkupTokenizer.cs"
+"Assets/Libraries/Daikon Forge/DFGUI/Scripts/Internal/dfRenderData.cs"
+"Assets/Libraries/Daikon Forge/DFGUI/Scripts/Internal/dfSupportClasses.cs"
+"Assets/Libraries/Daikon Forge/DFGUI/Scripts/Rich Text/dfMarkupBox.cs"
+"Assets/Libraries/Daikon Forge/DFGUI/Scripts/Rich Text/dfMarkupElement.cs"
+"Assets/Libraries/Daikon Forge/DFGUI/Scripts/Rich Text/dfMarkupImageCache.cs"
+"Assets/Libraries/Daikon Forge/DFGUI/Scripts/Rich Text/dfMarkupParser.cs"
+"Assets/Libraries/Daikon Forge/DFGUI/Scripts/Rich Text/dfMarkupStyle.cs"
+"Assets/Libraries/Daikon Forge/DFGUI/Scripts/Rich Text/dfMarkupTags.cs"
+"Assets/Libraries/Daikon Forge/DFGUI/Scripts/Rich Text/dfRichTextLabel.cs"
+"Assets/Libraries/Daikon Forge/DataBinding/Scripts/IDataBindingComponent.cs"
+"Assets/Libraries/Daikon Forge/DataBinding/Scripts/IObservableValue.cs"
+"Assets/Libraries/Daikon Forge/DataBinding/Scripts/dfComponentMemberInfo.cs"
+"Assets/Libraries/Daikon Forge/DataBinding/Scripts/dfControlKeyBinding.cs"
+"Assets/Libraries/Daikon Forge/DataBinding/Scripts/dfDataObjectProxy.cs"
+"Assets/Libraries/Daikon Forge/DataBinding/Scripts/dfEventBinding.cs"
+"Assets/Libraries/Daikon Forge/DataBinding/Scripts/dfEventDrivenPropertyBinding.cs"
+"Assets/Libraries/Daikon Forge/DataBinding/Scripts/dfEventProxyAttribute.cs"
+"Assets/Libraries/Daikon Forge/DataBinding/Scripts/dfExpressionPropertyBinding.cs"
+"Assets/Libraries/Daikon Forge/DataBinding/Scripts/dfObservableProperty.cs"
+"Assets/Libraries/Daikon Forge/DataBinding/Scripts/dfPropertyBinding.cs"
+"Assets/Libraries/Daikon Forge/DataBinding/Scripts/dfProxyPropertyBinding.cs"
+"Assets/Libraries/Daikon Forge/DataBinding/Scripts/dfSpriteAnimation.cs"
+"Assets/Libraries/Daikon Forge/Examples/ActionBar/Scripts/ActionBarViewModel.cs"
+"Assets/Libraries/Daikon Forge/Examples/ActionBar/Scripts/ActionbarsDragCursor.cs"
+"Assets/Libraries/Daikon Forge/Examples/ActionBar/Scripts/ActionbarsHoverEvents.cs"
+"Assets/Libraries/Daikon Forge/Examples/ActionBar/Scripts/ActionbarsTooltip.cs"
+"Assets/Libraries/Daikon Forge/Examples/ActionBar/Scripts/MessageDisplay.cs"
+"Assets/Libraries/Daikon Forge/Examples/ActionBar/Scripts/ShowSpellWindow.cs"
+"Assets/Libraries/Daikon Forge/Examples/ActionBar/Scripts/SpellDefinition.cs"
+"Assets/Libraries/Daikon Forge/Examples/ActionBar/Scripts/SpellInventory.cs"
+"Assets/Libraries/Daikon Forge/Examples/ActionBar/Scripts/SpellSlot.cs"
+"Assets/Libraries/Daikon Forge/Examples/Adding and Removing Controls Dynamically/DemoCreateChildControls.cs"
+"Assets/Libraries/Daikon Forge/Examples/Adding and Removing Controls Dynamically/DemoMoveControls.cs"
+"Assets/Libraries/Daikon Forge/Examples/Adding and Removing Controls Dynamically/DemoRemoveAllControls.cs"
+"Assets/Libraries/Daikon Forge/Examples/Color Picker/Scripts/AutoRotateModel.cs"
+"Assets/Libraries/Daikon Forge/Examples/Color Picker/Scripts/ColorFieldSelector.cs"
+"Assets/Libraries/Daikon Forge/Examples/Color Picker/Scripts/ColorHexField.cs"
+"Assets/Libraries/Daikon Forge/Examples/Color Picker/Scripts/ColorPickerDrag.cs"
+"Assets/Libraries/Daikon Forge/Examples/Color Picker/Scripts/ColorPickerPreset.cs"
+"Assets/Libraries/Daikon Forge/Examples/Color Picker/Scripts/HSBColor.cs"
+"Assets/Libraries/Daikon Forge/Examples/Color Picker/Scripts/HueSliderSelector.cs"
+"Assets/Libraries/Daikon Forge/Examples/Color Picker/Scripts/RGBSliders.cs"
+"Assets/Libraries/Daikon Forge/Examples/Color Picker/Scripts/SetCharacterColor.cs"
+"Assets/Libraries/Daikon Forge/Examples/Containers/Scripts/AutoArrangeDemoItem.cs"
+"Assets/Libraries/Daikon Forge/Examples/Containers/Scripts/AutoArrangeOptions.cs"
+"Assets/Libraries/Daikon Forge/Examples/Coverflow/DEMO_CoverflowItemInfo.cs"
+"Assets/Libraries/Daikon Forge/Examples/Coverflow/dfCoverflow.cs"
+"Assets/Libraries/Daikon Forge/Examples/Drag and Drop/DnDExample_DragCursor.cs"
+"Assets/Libraries/Daikon Forge/Examples/Drag and Drop/DndExample_InventoryItem.cs"
+"Assets/Libraries/Daikon Forge/Examples/ObjectPooling/Scripts/dfPoolManager.cs"
+"Assets/Libraries/Daikon Forge/Examples/ObjectPooling/Scripts/dfPooledObject.cs"
+"Assets/Libraries/Daikon Forge/Examples/Radial Menu/Scripts/CircularMenuStateIcon.cs"
+"Assets/Libraries/Daikon Forge/Examples/Radial Menu/Scripts/RadialContextMenu.cs"
+"Assets/Libraries/Daikon Forge/Examples/Radial Menu/Scripts/dfRadialMenu.cs"
+"Assets/Libraries/Daikon Forge/Examples/Rich Text/rtSampleEvents.cs"
+"Assets/Libraries/Daikon Forge/Examples/Scripts/AnimatePopup.cs"
+"Assets/Libraries/Daikon Forge/Examples/Scripts/ControlNavigation.cs"
+"Assets/Libraries/Daikon Forge/Examples/Scripts/DebugRenderInfo.cs"
+"Assets/Libraries/Daikon Forge/Examples/Scripts/PlatformVisibility.cs"
+"Assets/Libraries/Daikon Forge/Examples/Scripts/RuntimePixelPerfect.cs"
+"Assets/Libraries/Daikon Forge/Examples/Scripts/SetDefaultControl.cs"
+"Assets/Libraries/Daikon Forge/Examples/Scripts/SetMobileResolution.cs"
+"Assets/Libraries/Daikon Forge/Examples/Scripts/TextboxPrompt.cs"
+"Assets/Libraries/Daikon Forge/Examples/Scripts/dfFPSCounter.cs"
+"Assets/Libraries/Daikon Forge/Examples/Scripts/dfFollowObject.cs"
+"Assets/Libraries/Daikon Forge/Examples/Scripts/dfFollowObject3D.cs"
+"Assets/Libraries/Daikon Forge/Examples/Scripts/dfFollowObjectSorter.cs"
+"Assets/Libraries/Daikon Forge/Examples/Scripts/dfLoadLevelByName.cs"
+"Assets/Libraries/Daikon Forge/Examples/Scripts/dfQuitOnClick.cs"
+"Assets/Libraries/Daikon Forge/Examples/Scripts/dfRadarMain.cs"
+"Assets/Libraries/Daikon Forge/Examples/Scripts/dfRadarMarker.cs"
+"Assets/Libraries/Daikon Forge/Examples/Scripts/dfReplaceGUICamera.cs"
+"Assets/Libraries/Daikon Forge/Examples/Scripts/dfWindowTilt.cs"
+"Assets/Libraries/Daikon Forge/Examples/Sprites/Scripts/HoverAnimEvents.cs"
+"Assets/Libraries/Daikon Forge/Examples/Sprites/Scripts/SpriteProperties.cs"
+"Assets/Libraries/Daikon Forge/Examples/Tooltip/DemoFloatingTooltip.cs"
+"Assets/Libraries/Daikon Forge/Examples/Touch/Joysticks/Scripts/CharacterMotorCS.cs"
+"Assets/Libraries/Daikon Forge/Examples/Touch/Joysticks/Scripts/JumpButtonEvents.cs"
+"Assets/Libraries/Daikon Forge/Examples/Touch/Joysticks/Scripts/MobileFPSInputController.cs"
+"Assets/Libraries/Daikon Forge/Examples/Touch/Joysticks/Scripts/MobileMouseLook.cs"
+"Assets/Libraries/Daikon Forge/Examples/Touch/Joysticks/Scripts/dfTouchJoystick.cs"
+"Assets/Libraries/Daikon Forge/Examples/Touch/Picture Viewer/Scripts/DEMO_PictureManipulation.cs"
+"Assets/Libraries/Daikon Forge/Examples/Touch/Picture Viewer/Scripts/DEMO_PictureSelector.cs"
+"Assets/Libraries/Daikon Forge/Examples/Touch/Picture Viewer/Scripts/DEMO_TouchVisualizer.cs"
+"Assets/Libraries/Daikon Forge/Tweening/Scripts/dfAnimatedValue.cs"
+"Assets/Libraries/Daikon Forge/Tweening/Scripts/dfEasingFunctions.cs"
+"Assets/Libraries/Daikon Forge/Tweening/Scripts/dfEasingType.cs"
+"Assets/Libraries/Daikon Forge/Tweening/Scripts/dfTweenColor.cs"
+"Assets/Libraries/Daikon Forge/Tweening/Scripts/dfTweenColor32.cs"
+"Assets/Libraries/Daikon Forge/Tweening/Scripts/dfTweenComponent.cs"
+"Assets/Libraries/Daikon Forge/Tweening/Scripts/dfTweenComponentBase.cs"
+"Assets/Libraries/Daikon Forge/Tweening/Scripts/dfTweenEnumerations.cs"
+"Assets/Libraries/Daikon Forge/Tweening/Scripts/dfTweenEventBinding.cs"
+"Assets/Libraries/Daikon Forge/Tweening/Scripts/dfTweenFloat.cs"
+"Assets/Libraries/Daikon Forge/Tweening/Scripts/dfTweenGroup.cs"
+"Assets/Libraries/Daikon Forge/Tweening/Scripts/dfTweenPlayableBase.cs"
+"Assets/Libraries/Daikon Forge/Tweening/Scripts/dfTweenRotation.cs"
+"Assets/Libraries/Daikon Forge/Tweening/Scripts/dfTweenVector2.cs"
+"Assets/Libraries/Daikon Forge/Tweening/Scripts/dfTweenVector3.cs"
+"Assets/Libraries/Daikon Forge/Tweening/Scripts/dfTweenVector4.cs"
+Assets/Libraries/Mathfx.cs
+Assets/Libraries/iTween/Plugins/iTween.cs
+Assets/Scripts/Building.cs
+Assets/Scripts/BuildingChoiceIndicator.cs
+Assets/Scripts/BuildingChooser.cs
+Assets/Scripts/FlyAtTarget.cs
+Assets/Scripts/Forest.cs
+Assets/Scripts/GameValues.cs
+Assets/Scripts/HarvestFromForest.cs
+Assets/Scripts/HarvestTrees.cs
+Assets/Scripts/HideUIAtNight.cs
+Assets/Scripts/LowerVolumeAtNight.cs
+Assets/Scripts/MainMenuOnClick.cs
+Assets/Scripts/Monster.cs
+Assets/Scripts/MoveCameraWithMouse.cs
+Assets/Scripts/OpenTwitterPage.cs
+Assets/Scripts/OrbitingSun.cs
+Assets/Scripts/PlaceHouseOnClick.cs
+Assets/Scripts/ShootAtMonsters.cs
+Assets/Scripts/ShowBuildingCosts.cs
+Assets/Scripts/SpawnMonsters.cs
+Assets/Scripts/SpawnTrees.cs
+Assets/Scripts/SpawnVillager.cs
+Assets/Scripts/StartGameFromMainMenu.cs
+Assets/Scripts/Tree.cs
+Assets/Scripts/Villager.cs
+Assets/Scripts/WanderWithinBounds.cs
